@@ -1,5 +1,5 @@
 # quake3-arena-server
-[![release Actions Status](https://github.com/exesse/mongo-dump-s3/workflows/release/badge.svg)](https://github.com/exesse/mongo-dump-s3/actions)
+[![release Actions Status](https://github.com/exesse/quake3-arena-server/workflows/release/badge.svg)](https://github.com/exesse/quake3-arena-server/actions)
 
 Quake 3 Arena Server packed as a Docker container.
 Base image credentials goes to GitHub user **[jberrenberg](https://github.com/jberrenberg)**.
