@@ -12,16 +12,16 @@ Base image credit goes to GitHub user **[jberrenberg](https://github.com/jberren
 ## Usage
 
 ```bash
-sudo docker run --name q3a-server -d -p 0.0.0.0:27960:27960/udp exesse/q3a-server:latest
+sudo docker run --name q3a-no-bots -d -p 27960:27960/udp exesse/q3a-server:no-bots
 ```
 
 To start with custom server configuration file mount your config as **/home/ioq3srv/.q3a/baseq3/server.cfg**.
 
 ```bash
-sudo docker run --name q3a-server -d \
--p 0.0.0.0:27960:27960/udp \
+sudo docker run --name q3a-no-bots -d \
+-p 27960:27960/udp \
 -v path_to_your_config:/home/ioq3srv/.q3a/baseq3/server.cfg \
-exesse/q3a:latest
+exesse/q3a:no-bots
 ```
 
 ## Feedback

@@ -13,7 +13,7 @@ RUN \
   echo "y" | sh /tmp/build/compile.sh && \
   unzip /tmp/build/quake3-latest-pk3s.zip -d /tmp/build/ && \
   wget -O /tmp/build/quake3-latest-pk3s/baseq3/pak0.pk3 https://github.com/nrempel/q3-server/raw/master/baseq3/pak0.pk3 && \
-  wget -O /tmp/build/quake3-latest-pk3s/baseq3/server.cfg https://raw.githubusercontent.com/exesse/quake3-arena-server/master/server.cfg && \
+  wget -O /tmp/build/quake3-latest-pk3s/baseq3/server.cfg https://raw.githubusercontent.com/exesse/quake3-arena-server/no-bots/server.cfg && \
   cp -r /tmp/build/quake3-latest-pk3s/* ~/ioquake3
 
 FROM alpine:latest
